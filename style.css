@@ -1,0 +1,58 @@
+
+* {
+  padding: 0;
+  margin: 0;
+  border: none;
+  border-radius: 0;
+  outline: none;
+}  
+body {
+  font-family: 'Arial ', 'Roboto Mono', monospace;
+  background: #c3b1b1da;
+}
+button,
+textarea,
+input {
+  font-family: 'Roboto Mono', monospace;
+  background: transparent;
+  box-shadow: 10px 10px 20px #bebebe,
+            -5px -5px 20px #000000;
+  border-radius: 50px;
+}
+main {
+  position: absolute;
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+section {
+  max-width: 768px;
+  margin: auto;
+  display: grid;
+  justify-content: center;
+  gap: 40px;
+}
+#timeunit {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+}
+#timeunit .miliseconds {
+  font-size: 5.5rem;
+  transform: translate(0, 10px);
+}
+#action {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.btn {
+  padding: 15px 25px;
+  cursor: pointer;
+}
+.btn:hover {
+  box-shadow: inset 5px 5px 20px #ff0000,
+              inset -5px -5px 20px #ff0000;
+}
